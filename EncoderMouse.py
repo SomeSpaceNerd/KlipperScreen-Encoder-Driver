@@ -34,10 +34,11 @@ def move_mouse():
     movement_amount = 4  # Adjust the movement multiplier here
     if mode == 0:
         if steps > 0:
-            ui.write(e.EV_REL, e.REL_X, movement_amount)
-        elif steps < 0:
             ui.write(e.EV_REL, e.REL_X, -movement_amount)
+        elif steps < 0:
+            ui.write(e.EV_REL, e.REL_X, movement_amount)
     elif mode == 1:
+        if steps > 0:
             ui.write(e.EV_REL, e.REL_Y, movement_amount)
         elif steps < 0:
             ui.write(e.EV_REL, e.REL_Y, -movement_amount)
