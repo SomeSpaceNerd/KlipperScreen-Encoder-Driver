@@ -7,8 +7,8 @@ import signal
 pin_a = 27 # Encoder A Pin
 pin_b = 17 # Encoder B Pin
 pin_button = 22 # Encoder Switch (SW) Pin
-hold_time = 0.75 # Time that holding the button to left click takes
-movement_amount = 8 # Movement multiplier for mouse movements
+hold_time = 0.5 # Time that holding the button to left click takes
+movement_amount = 10 # Movement multiplier for mouse movements
 
 # Mode: 0 for X-axis, 1 for Y-axis
 mode = 0
