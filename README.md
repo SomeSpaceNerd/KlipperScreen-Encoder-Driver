@@ -9,7 +9,12 @@ Originally designed for [this Anycubic Kobra screen driver](https://github.com/j
 
 ## Hardware
 ![SW: 22, A: 27, B: 17](https://github.com/wil-sys/KlipperScreen-Encoder-Driver/blob/main/img/GPIOEnc.png?raw=true)
-The default pin mapping is Switch on pin 22, A on pin 27, and B on pin 17
+The default pin mapping is 
+```
+Switch -> GPIO 22
+Encoder A -> GPIO 27
+Encoder B -> GPIO 17
+```
 
 ## Software
 Ensure that you have evdev installed on your system by running 
