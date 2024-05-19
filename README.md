@@ -49,7 +49,7 @@ sudo systemctl start EncoderMouse.service
 
 Ensure that the service is running
 ```
-sudo systemctl status mouse_emulator.service
+sudo systemctl status EncoderMouse.service
 ```
 
 At this point you will probably not see a mouse cursor on KlipperScreen, if you don't, add the following line to your klipperscreen.conf
