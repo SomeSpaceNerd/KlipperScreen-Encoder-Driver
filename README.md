@@ -47,7 +47,7 @@ User=pi
 [Install]
 WantedBy=multi-user.target
 ```
-Then hit ctrl+X then Y to exit the editor.
+Then hit ctrl+X, Y, then enter to exit the editor.
 
 Run the following three commands to setup and run the service 
 ```
