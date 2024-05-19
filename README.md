@@ -64,6 +64,10 @@ At this point you will probably not see a mouse cursor on KlipperScreen, if you 
 ```
 show_cursor: True
 ```
+# Usage
+Use the encoder knob to move the mouse depending on the mode.
+You can switch between X and Y mode by pressing the button momentarily.
+You can left click by holding the button for as long as the hold_time is set in the python script.
 
 ## Footer
 This work is licensed under a
