@@ -20,6 +20,7 @@ ui = UInput(capabilities)
 
 def button_hold():
     ui.write(e.EV_KEY, e.BTN_LEFT, 1)
+    ui.syn()
     time.sleep(250)
     ui.write(e.EV_KEY, e.BTN_LEFT, 0)
     ui.syn()
@@ -31,7 +32,7 @@ def button_pressed():
 def move_mouse():
     global encoder
     steps = encoder.steps
-    movement_amount = 4  # Adjust the movement multiplier here
+    movement_amount = 8  # Adjust the movement multiplier here
     if mode == 0:
         if steps > 0:
             ui.write(e.EV_REL, e.REL_X, -movement_amount)
