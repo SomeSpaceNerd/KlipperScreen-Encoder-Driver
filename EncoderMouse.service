@@ -1,0 +1,14 @@
+[Unit]
+Description=Encoder Mouse emulator Service
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/KlipperScreen-Encoder-Driver/EncoderMouse.py
+WorkingDirectory=/home/pi/KlipperScreen-Encoder-Driver/
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
