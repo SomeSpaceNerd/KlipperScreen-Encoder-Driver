@@ -52,5 +52,6 @@ button = Button(pin_button)
 button.when_held = button_hold
 button.when_pressed = button_pressed
 
-# Keep the script running
-signal.pause()
+# Keep the script running and not trip systemctl restart counter
+while True:
+    signal.pause()
