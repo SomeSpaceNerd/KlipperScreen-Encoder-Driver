@@ -1,5 +1,5 @@
 # KlipperScreen-Encoder-Driver
-Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+[![CC BY 4.0][cc-by-shield]][cc-by]
 
 A driver to allow the use of KlipperScreen on printer screens with a builtin encoder and no touchscreen.
 
