@@ -12,6 +12,10 @@ Originally designed for [this Anycubic Kobra screen driver](https://github.com/j
 The default pin mapping is Switch on pin 22, A on pin 27, and B on pin 17
 
 ## Software
+Ensure that you have evdev installed on your system by running 
+```
+pip install evdev
+```
 Clone the repository into your home folder
 ```
 cd ~
