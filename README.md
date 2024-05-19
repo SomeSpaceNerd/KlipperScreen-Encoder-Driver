@@ -42,7 +42,6 @@ StandardError=inherit
 Restart=always
 StartLimitBurst=500
 StartLimitIntervalSec=0
-User=pi
 
 [Install]
 WantedBy=multi-user.target
