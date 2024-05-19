@@ -40,11 +40,13 @@ WorkingDirectory=/home/pi/KlipperScreen-Encoder-Driver/
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
+StartLimitIntervalSec= 0
 User=pi
 
 [Install]
 WantedBy=multi-user.target
 ```
+Then hit ctrl+X then Y to exit the editor.
 
 Run the following three commands to setup and run the service 
 ```
