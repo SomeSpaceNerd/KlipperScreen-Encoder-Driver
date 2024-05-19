@@ -1,7 +1,7 @@
 # KlipperScreen-Encoder-Driver
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
-A driver to allow the use of KlipperScreen on printer screens with a builtin encoder and no touchscreen.
+A driver to allow the use of KlipperScreen on printer screens with a builtin encoder and no touchscreen that was originally designed for [This Anycubic Kobra screen driver](https://github.com/jokubasver/Anycubic-Kobra-Go-Neo-LCD-Driver)
 
 ## Footer
 This work is licensed under a
