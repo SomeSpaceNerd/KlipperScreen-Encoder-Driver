@@ -40,7 +40,8 @@ WorkingDirectory=/home/pi/KlipperScreen-Encoder-Driver/
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
-StartLimitIntervalSec= 0
+StartLimitBurst=500
+StartLimitIntervalSec=0
 User=pi
 
 [Install]
