@@ -14,7 +14,7 @@ The default pin mapping is Switch on pin 22, A on pin 27, and B on pin 17
 ## Software
 Ensure that you have evdev installed on your system by running 
 ```
-pip install evdev
+sudo python3 -m pip install evdev
 ```
 Clone the repository into your home folder
 ```
