@@ -51,7 +51,7 @@ encoder = RotaryEncoder(pin_a, pin_b)
 encoder.when_rotated = move_mouse
 
 button = Button(pin_button)
-butoon.held_time = 0.75
+button.held_time = 0.75
 button.when_held = button_hold
 button.when_pressed = button_pressed
 
