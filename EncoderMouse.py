@@ -21,7 +21,7 @@ ui = UInput(capabilities)
 def button_hold():
     ui.write(e.EV_KEY, e.BTN_LEFT, 1)
     ui.syn()
-    time.sleep(250)
+    time.sleep(0.25)
     ui.write(e.EV_KEY, e.BTN_LEFT, 0)
     ui.syn()
 
@@ -51,6 +51,7 @@ encoder = RotaryEncoder(pin_a, pin_b)
 encoder.when_rotated = move_mouse
 
 button = Button(pin_button)
+butoon.held_time = 0.75
 button.when_held = button_hold
 button.when_pressed = button_pressed
 
