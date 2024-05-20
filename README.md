@@ -34,6 +34,7 @@ sudo nano /etc/systemd/system/EncoderMouse.service
 ```
 
 Then put the following contents into it
+\(Note you may need to change the directoy of either the repository, python3, or both)
 ```
 [Unit]
 Description=Encoder Mouse emulator Service
