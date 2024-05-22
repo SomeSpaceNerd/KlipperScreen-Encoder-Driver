@@ -25,7 +25,7 @@ def button_hold():
     mode = 1 - mode # Compensate for button_pressed() being called before button_hold()
     ui.write(e.EV_KEY, e.BTN_LEFT, 1)
     ui.syn()
-    time.sleep(0.25)
+    time.sleep(0.1)
     ui.write(e.EV_KEY, e.BTN_LEFT, 0)
     ui.syn()
 
