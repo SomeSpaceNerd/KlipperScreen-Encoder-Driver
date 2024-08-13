@@ -24,7 +24,7 @@ sudo python3 -m pip install evdev
 Clone the repository into your home folder
 ```
 cd ~
-git clone https://github.com/wil-sys/KlipperScreen-Encoder-Driver.git
+git clone https://github.com/SomeSpaceNerd/KlipperScreen-Encoder-Driver.git
 ```
 Create a systemd service file to run the script at startup
 
